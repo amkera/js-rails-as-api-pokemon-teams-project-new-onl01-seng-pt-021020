@@ -43,7 +43,7 @@ const renderTrainer = (trainerHash) => {
 }
 
 const renderPokemon = (pokemon) => {
-  //{id: 1, species: "Seel", nickname: "Arnulfo", trainer_id: 1}
+
   const ul = document.querySelector(`div[data-id="${pokemon.trainer_id}"]`);
   const li = document.createElement("li");
   const button = document.createElement("button")
